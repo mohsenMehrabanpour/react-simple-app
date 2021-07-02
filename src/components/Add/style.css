@@ -1,0 +1,91 @@
+.add-btn {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: rgb(176, 255, 255);
+    border: none;
+    font-family: cursive, fantasy, sans-serif;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.add-btn:hover {
+    background-color: cadetblue;
+    transition: background-color 1s;
+}
+
+.add-btn:active {
+    transform: translate(0, 5px);
+}
+
+input {
+    width: 40%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    height: 25px;
+    margin-top: 25px;
+    caret-color: aqua;
+    font-family: cursive, fantasy, sans-serif;
+    color: rgb(176, 255, 255);
+    font-weight: bold;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: rgba(176, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive, fantasy, sans-serif;
+}
+
+input[type="submit"] {
+    width: 40%;
+    margin-left: 5%;
+    border: none;
+    margin-top: 25px;
+    font-family: cursive, fantasy, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(63, 63, 207);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(66, 66, 233);
+}
+
+input[type="submit"]:active {
+    transform: translate(0, 5px);
+}
+
+.add-section {
+    display: none;
+}
+
+.error-box {
+    width: 90%;
+    margin-left: 5%;
+    background-color: pink;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.error-box>p {
+    padding-left: 5%;
+    color: darkred;
+}
+
+.error-box>p:first-child{
+    padding-top: 20px;
+}
+
+
+.error-box>p:last-child{
+    padding-bottom: 10px;
+}

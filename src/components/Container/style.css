@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: cursive, fantasy, sans-serif;
+    background: rgb(35, 57, 80);
+    background: linear-gradient(338deg, rgba(35, 57, 80, 1) 59%, rgba(42, 75, 106, 1) 85%);
+    min-height: 100vh;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    color: rgb(176, 255, 255);
+    font-size: 46px;
+    margin: 0;
+    padding-top: 20px;
+}

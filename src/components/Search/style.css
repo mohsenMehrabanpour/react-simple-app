@@ -1,0 +1,21 @@
+#searchBar {
+    width: 89.5%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    height: 25px;
+    margin-top: 25px;
+    caret-color: aqua;
+    font-family: cursive, fantasy, sans-serif;
+    color: rgb(176, 255, 255);
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#searchBar::placeholder {
+    color: rgba(176, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive, fantasy, sans-serif;
+}

@@ -1,0 +1,27 @@
+table {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: aquamarine;
+    padding-bottom: 50px;
+}
+
+thead, th {
+    background-color: #0052A2;
+    padding: 20px 0;
+    color: aquamarine;
+    cursor: default;
+}
+
+td {
+    text-align: center;
+    padding: 20px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #000B18;
+}
+
+tr:nth-child(odd) {
+    background-color: #00172D;
+}
